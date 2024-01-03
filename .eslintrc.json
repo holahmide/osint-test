@@ -13,6 +13,7 @@
         "version": "detect"
       },
       "import/resolver": {
+        "typescript": {},
         "node": {
           "paths": [
             "src"
