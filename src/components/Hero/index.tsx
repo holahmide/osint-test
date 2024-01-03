@@ -25,7 +25,7 @@ const Hero = () => {
               </p>
 
               <div className="flex gap-8 my-4">
-                <button className="bg-white text-black rounded-[14px] border-white border-4 border-opacity-10 bg-clip-padding">
+                <button className="bg-white text-black rounded-xl border-white border-4 border-opacity-10 bg-clip-padding">
                   Get Started
                 </button>
 
