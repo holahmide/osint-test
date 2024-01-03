@@ -28,7 +28,7 @@ const NavBar: React.FC = () => {
           <ArrowRightIcon />
         </a>
       </nav>
-      <hr className="max-w-6xl mx-auto filter brightness-[.05]" />
+      <hr className="max-w-6xl mx-auto filter brightness-[.07]" />
     </Wrapper>
   );
 };

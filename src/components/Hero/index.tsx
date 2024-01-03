@@ -4,15 +4,15 @@ import { RatingsIllustration, WorldMapSVG } from '@/assets/images';
 
 const Hero = () => {
   return (
-    <div className="relative h-[80vh] mb-40">
+    <div className="relative h-[80vh] mb-40 mx-auto max-w-10xl">
       <div className="relative">
-        <div className="absolute right-0 -mr-6 top-24 hidden md:inline">
-          <WorldMapSVG className="w-full max-h-[500px]" />
+        <div className="absolute right-0 -mr-0 top-[15%] 2xl:top-[20%] hidden md:inline">
+          <WorldMapSVG className="w-full max-h-[550px]" />
         </div>
         <Wrapper>
           <div className="h-[85vh] flex items-center relative">
             <div className="flex flex-col justify-center gap-3 md:max-w-[60%] h-full z-30">
-              <p className="text-4xl md:text-6xl font-bold !text-white leading-tighter">
+              <p className="text-4xl md:text-5xl font-bold !text-white leading-tighter">
                 <span className="bg-gradient-to-r from-[#7F00FF] to-[#FFFFFF] text-transparent bg-clip-text">
                   Supercharge
                 </span>

@@ -5,11 +5,12 @@ import svgrPlugin from 'vite-plugin-svgr';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [react(), svgrPlugin()],
   resolve: {
-    alias: { '@': path.resolve(__dirname, 'src/') },
+    alias: { '@': path.resolve(__dirname, 'src/') }
   },
   server: {
-    port: 3000,
-  },
+    port: 3000
+  }
 });

@@ -1,24 +1,24 @@
 export const NavLinks = [
   {
     path: '/training',
-    name: 'Training',
+    name: 'Training'
   },
   {
     path: '/enterprise',
-    name: 'Enterprise',
+    name: 'Enterprise'
   },
   {
     path: '/contact',
     name: 'Contact',
-    hasSubLinks: true,
+    hasSubLinks: true
   },
   {
     path: '/buy-credits',
-    name: 'Buy Credits',
+    name: 'Buy Credits'
   },
   {
     path: '/full-access',
-    name: 'Buy Credits',
-    hasSubLinks: true,
-  },
+    name: 'Full Access',
+    hasSubLinks: true
+  }
 ];

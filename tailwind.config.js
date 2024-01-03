@@ -5,8 +5,10 @@ export default {
     extend: {
       maxWidth: {
         '8xl': '84rem',
-      },
-    },
+        '9xl': '88rem',
+        '10xl': '92rem'
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };
