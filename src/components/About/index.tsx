@@ -1,9 +1,10 @@
 import { PlusIcon } from '@/assets/icons';
 import { AboutPoints } from './constants';
+import { m } from 'framer-motion';
 
 const About = () => {
   return (
-    <>
+    <m.div initial={{ x: -100 }} whileInView={{ x: 0 }} transition={{ duration: 1 }}>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-8">
         <div className="h-36 border-r border-[rgba(255,255,255,0.12)] relative">
           <div className="absolute bottom-0 right-0 -m-1.5">
@@ -34,7 +35,7 @@ const About = () => {
           </div>
         ))}
       </div>
-    </>
+    </m.div>
   );
 };
 
