@@ -8,6 +8,7 @@ const IntelligenceSteps = () => {
         initial={{ y: 100 }}
         whileInView={{ y: 0 }}
         transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
         className="text-center text-4xl font-bold"
       >
         Effortless intelligence in{' '}
